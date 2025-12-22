@@ -47,6 +47,11 @@ section {
     padding: 45px 0;
 }
 
+section:nth-child(2) {
+    background-color: #5f29a3;
+    color: whitesmoke;
+}
+
 .container {
     width: 620px;
     margin: 0 auto;
