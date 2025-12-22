@@ -6,17 +6,13 @@ body {
     margin: 0;
 }
 
-header {
-    background: #5f29a3;
-    padding: 45px 0;
-}
+/* Typography */
 
 h1 {
     color: whitesmoke;
     font-size: 2.25rem;
     margin: 0;
 }
-
 
 h2 {
     margin-top: 0;
@@ -28,6 +24,8 @@ h3 {
     margin: 0;
 }
 
+/* Links */
+
 a {
     color: #ef5839;
     text-decoration: underline;
@@ -38,15 +36,22 @@ a:hover, a:active {
     color: #d4b44c;
 }
 
-section {
+/* Layout */
+
+header {
+    background: #5f29a3;
     padding: 45px 0;
 }
 
-.main-image {
-    width: 100%;
+section {
+    padding: 45px 0;
 }
 
 .container {
     width: 620px;
     margin: 0 auto;
+}
+
+.main-image {
+    width: 100%;
 }
