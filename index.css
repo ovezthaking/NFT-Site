@@ -59,7 +59,7 @@ section:nth-child(2) img {
 
 .img-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .container {
@@ -69,4 +69,11 @@ section:nth-child(2) img {
 
 .main-image {
     width: 100%;
+}
+
+footer {
+    color:#5f29a3;
+    font-size: 1rem;
+    text-align: center;
+    padding: 45px 0;
 }
