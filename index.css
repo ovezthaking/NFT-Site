@@ -8,6 +8,10 @@ body {
 
 /* Typography */
 
+h1, h3 {
+    margin: 0;
+}
+
 h1 {
     color: whitesmoke;
     font-size: 2.25rem;
@@ -20,10 +24,6 @@ h2 {
 h3 {
     color: #d0aaff;
     font-size: 1.25rem;
-}
-
-h1, h3 {
-    margin: 0;
 }
 
 /* Links */
@@ -39,6 +39,10 @@ a:hover, a:active {
 }
 
 /* Layout */
+
+header, section, footer {
+    padding: 45px 0;
+}
 
 header, section:nth-child(2) {
     background: #5f29a3;
@@ -74,8 +78,4 @@ section:nth-child(2) img {
 footer {
     color:#5f29a3;
     text-align: center;
-}
-
-header, section, footer {
-    padding: 45px 0;
 }
