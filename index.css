@@ -101,17 +101,20 @@ section {
 }
 
 .container {
-    width: 620px;
+    width: 90%;
     margin: 0 auto;
+    max-width: 800px;
 }
 
 .main-image {
+    display: block;
     width: 100%;
-    margin-bottom: 32px;
+    max-width: 640px;
+    margin: 0 auto 32px;
 }
 
 .feature-image {
-    width: 310px;
+    width: 48.8%;
     border-radius: 4.6px;
 }
 
