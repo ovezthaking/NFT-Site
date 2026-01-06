@@ -21,13 +21,18 @@ h2 {
     margin-top: 0;
 }
 
-h3 {
-    color: #d0aaff;
+h3 { 
     font-size: 1.25rem;
 }
 
 p {
     line-height: 23px;
+}
+
+.subheading {
+    display: block;
+    font-size: 20px;
+    color: #d0aaff;
 }
 
 /* Links */
@@ -86,16 +91,11 @@ section {
     padding: 45px 0;
 }
 
-section:nth-child(2) {
+.section-two {
     color: whitesmoke;
 }
 
-section:nth-child(2) img {
-    width: 300px;
-    border-radius: 4.6px;
-}
-
-.img-container {
+.section-two-image-container {
     display: flex;
     justify-content: space-between;
 }
@@ -107,6 +107,12 @@ section:nth-child(2) img {
 
 .main-image {
     width: 100%;
+    margin-bottom: 32px;
+}
+
+.feature-image {
+    width: 310px;
+    border-radius: 4.6px;
 }
 
 footer {
