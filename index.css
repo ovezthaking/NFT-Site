@@ -100,7 +100,7 @@ section {
 
 .section-two-image-container {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
 }
 
 .container {
@@ -117,11 +117,23 @@ section {
 }
 
 .feature-image {
-    width: 48.8%;
     border-radius: 4.6px;
+    margin-bottom: 1em;
 }
 
 footer {
     color:#5f29a3;
     text-align: center;
+}
+
+/* ----- MEDIA QUERIES ----- */
+
+@media (min-width: 480px){
+    .section-two-image-container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .feature-image {
+        width: 48.8%;
+    }
 }
