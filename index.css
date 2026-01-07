@@ -51,7 +51,7 @@ a:hover, a:active {
 /* Layout */
 
 header, section, footer {
-    padding: 45px 0;
+    padding: 2.875em 0;
 }
 
 header, section:nth-child(2) {
@@ -59,11 +59,13 @@ header, section:nth-child(2) {
 }
 
 .btn {
-    padding: 10px 19px;
+    font-size: 1.125em;
+    padding: 0.5em 1em;
     border-radius: 4.6px;
     font-weight: 500;
     text-decoration: none;
     display: inline-block;
+    margin: 0 0.5em 1em 0;
 }
 
 .btn-mid, .btn-light {
@@ -111,7 +113,7 @@ section {
     display: block;
     width: 100%;
     max-width: 640px;
-    margin: 0 auto 32px;
+    margin: 0 auto 2em;
 }
 
 .feature-image {
