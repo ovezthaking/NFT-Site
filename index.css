@@ -61,6 +61,7 @@ header, section:nth-child(2) {
     background: #5f29a3;
 }
 
+
 .btn {
     font-size: 1.125rem;
     text-align: center;
@@ -147,9 +148,7 @@ nav a {
     padding: 0.85em 0;
 }
 
-li:not(:last-child) {
-    border-bottom: 1px dotted #a190b6;
-}
+
 
 /* ----- MEDIA QUERIES ----- */
 
@@ -190,5 +189,20 @@ li:not(:last-child) {
 
     p {
         font-size: 1.125rem;
+    }
+}
+
+@media (max-width: 767px) {
+
+    li:not(:last-child) {
+        border-bottom: 1px dotted #a190b6;
+    }
+
+    header {
+        text-align: center;
+    }
+
+    nav {
+        margin-top: 1.5em;
     }
 }
