@@ -50,9 +50,12 @@ a:hover, a:active {
 
 /* Layout */
 
-header, section, footer {
-    padding: 2.875em 0;
+header, 
+section, 
+footer {
+    padding: 1.25em 0;
 }
+
 
 header, section:nth-child(2) {
     background: #5f29a3;
@@ -132,5 +135,13 @@ footer {
     
     .feature-image {
         width: 48.8%;        
+    }
+}
+
+@media (min-width: 768px) {
+    header, 
+    section, 
+    footer {
+        padding: 2.875em 0;
     }
 }
