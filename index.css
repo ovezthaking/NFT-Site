@@ -98,42 +98,39 @@ section {
     color: whitesmoke;
 }
 
-.section-two-image-container {
-    display: flex;
-    flex-direction: column;
-}
-
 .container {
     width: 90%;
-    margin: 0 auto;
     max-width: 800px;
+    margin: 0 auto;
 }
 
 .main-image {
-    display: block;
     width: 100%;
+    display: block;
     max-width: 640px;
     margin: 0 auto 2em;
 }
 
 .feature-image {
+    width: 100%;
     border-radius: 4.6px;
     margin-bottom: 1em;
 }
 
 footer {
-    color:#5f29a3;
     text-align: center;
+    color: #5f29a3;
 }
 
 /* ----- MEDIA QUERIES ----- */
 
-@media (min-width: 480px){
+@media (min-width: 480px) {
     .section-two-image-container {
-        flex-direction: row;
+        display: flex;
         justify-content: space-between;
     }
+    
     .feature-image {
-        width: 48.8%;
+        width: 48.8%;        
     }
 }
