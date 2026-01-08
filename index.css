@@ -170,6 +170,20 @@ nav a {
         padding: 2.875em 0;
     }
 
+    header .container,
+    nav ul {
+        display: flex;
+    }
+
+    header .container {
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav li {
+        margin-left: 1.25em;
+    }
+
     .btn {
         display: inline-block;
         margin-right: 0.5em;
