@@ -103,6 +103,16 @@ section {
     color: whitesmoke;
 }
 
+.section-two-image-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.feature-item {
+    flex:1 260px;
+}
+
 .container {
     width: 90%;
     max-width: 800px;
@@ -120,6 +130,7 @@ section {
     width: 100%;
     border-radius: 4.6px;
     margin-bottom: 1em;
+
 }
 
 footer {
@@ -152,7 +163,7 @@ nav a {
 
 /* ----- MEDIA QUERIES ----- */
 
-@media (min-width: 480px) {
+/* @media (min-width: 480px) {
     .section-two-image-container {
         display: flex;
         justify-content: space-between;
@@ -161,7 +172,7 @@ nav a {
     .feature-image {
         width: 48.8%;        
     }
-}
+} */
 
 @media (min-width: 768px) {
     header, 
